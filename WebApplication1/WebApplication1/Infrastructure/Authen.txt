@@ -1,0 +1,8 @@
+﻿Action Invoker Selects Method
+then
+AuthenticationFilters
+then Authorization Filters
+then Model Binding
+then Action Filters
+then Action Method
+then Action Filters

@@ -140,8 +140,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\BetterJsonResult.cs" />
+    <Compile Include="Infrastructure\BirthdateValidator.cs" />
+    <Compile Include="Infrastructure\HttpAuthenticate.cs" />
     <Compile Include="Infrastructure\JsonExtensions.cs" />
     <Compile Include="Infrastructure\JsonHtmlHelpers.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\WorkflowValues.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -158,6 +161,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Infrastructure\Authen.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
